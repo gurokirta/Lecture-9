@@ -337,7 +337,8 @@ body {
 .artists_grid_list { 
     display: grid;
     grid-template-columns: 240px 240px 240px 240px;
-    gap: 20px;
+    grid-template-rows: 238px 238px 238px 238px;
+    gap: 30px;
     margin: 0 115px;
 }
 
@@ -348,8 +349,66 @@ body {
     align-items: center;
     background-color: #3B3B3B;
     border-radius: 20px;
+    gap: 20px;
+    position: relative;
 }
 
+.artist_info_item { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.artist_name { 
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.artist_additional_info_box { 
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.sales { 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #858584;
+}
+
+.amount { 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #fff;
+}
+
+.artist_rank { 
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    display: flex;
+    background-color: #2B2B2B;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+}
+
+.artist_rank > h6 { 
+    color: #858584;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Responsive is Here */
 
 
