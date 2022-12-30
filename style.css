@@ -544,3 +544,97 @@ body {
         left: 22px;
     }
 }
+
+@media (max-width:375px) { 
+    .header { 
+        margin: 0 30px;
+    }
+
+    .header_logo > img{ 
+        width: 182px;
+    }
+
+    .burger_nav { 
+        margin-left: 39px;
+    }
+
+    .article_section_box_first{ 
+        margin: 40px 30px;
+    }
+
+    .article_box { 
+        flex-direction: column;
+    }
+
+    .article_title { 
+        font-size: 28px;
+    }
+
+    .article_box_child_two_img { 
+        width: 315px;
+    }
+
+    .frame { 
+        width: 315px;
+    }
+    
+    .additional_info_box { 
+        justify-content: center;
+        align-items: center;
+        width: 315px;
+    }
+
+    .article_button { 
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .collection_card_item:nth-child(2) { 
+        display: none;
+    }
+
+    .artists_grid_list{
+        grid-template-columns: 315px;
+        grid-template-rows: 100px;
+        margin: 0 30px;
+    }
+
+    .trending_card_headline_title { 
+        width: 315px;
+    }
+
+    .trending_card_headline_subhead { 
+        width: 315px;
+    }
+
+    .collection_cards { 
+        margin: 0 30px;
+    }
+
+    .collection_card_primary_img {
+        width: 315px;
+    }
+    
+    .collection_card_frame { 
+        height: 95px;
+    }
+
+    .rated_artists_section { 
+        position: relative;
+    }
+
+    .section_headline { 
+        margin:0 30px;
+    }
+
+    .headline_button > button {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 315px;
+        padding: 0 50px;
+        margin: 30px;
+    }
+}
